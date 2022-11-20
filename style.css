@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  .bg-blue {
+    background-color: #00fbff;
+  }
+  .overall-border {
+    border-top: 10px blue;
+    border-left: 10px blue;
+    border-right: 10px blue;
+    border-bottom: 3px black;
+    border-style: inset;
+  }
+  .height-30 {
+    height: 30%;
+  }
+  .btn-section-border {
+    border-bottom: 10px blue;
+    border-left: 10px blue;
+    border-right: 10px blue;
+    border-top: 3px black;
+    border-style: inset;
+  }
+  .light-blue {
+    background-color: #009dff;
+  }
+  #rotateMode{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background-color: gray;
+    color:white;
+    position:relative;
+   
+  }
+  
+  #left{
+      position:absolute;
+    top:50%;
+    left:0px;
+    transform:translateY(-50%);
+  }
+  
+  #right{
+   position:absolute;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+  }
+  
+  #up{
+       position:absolute;
+    top:0px;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  
+  #down{
+      position:absolute;
+    bottom:0px;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
